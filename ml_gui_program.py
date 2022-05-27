@@ -25,7 +25,7 @@ class UI(QMainWindow):
         self.target_col = self.findChild(QLabel, "target_col")
         self.cat_column = self.findChild(QComboBox, "cat_column") #여기엔 자동으로 뭔가가 채워져야 한다. 
         self.convert_btn = self.findChild(QPushButton, "convert_btn") #이걸 클릭했을떄 함수가 실행되도록 한다.
-
+        self.dropcolumn = self.findChild(QComboBox, "dropcolumn") #여기엔 자동으로 뭔가가 채워져야 한다. 
 
         # 버튼 클릭
         self.Browse.clicked.connect(self.getCSV) #이런 함수 제작, 타겟이라는 함수 제작 -> target 이라는 함수를 만들자 
@@ -63,6 +63,8 @@ class UI(QMainWindow):
 
         self.cat_column.clear()
         self.cat_column.addItems(self.column_list) #filldetails에서 만든 column_list내용 삽입 
+        self.dropcolumn.clear()
+        self.dropcolumn.addItems(self.dropcolumn) #filldetails에서 만든 column_list내용 삽입 
 
         #table_display 클래스를 실행해서 라이브러리 사용한다. 
         x = DataFrameModel(self.df) #함수 선언 
@@ -111,6 +113,7 @@ class UI(QMainWindow):
         steps.add_text("Column "+ selected + " converted using LabelEncoder")
         steps.add_pipeline("LabelEncoder",func_name)
         self.filldetails()
+
 
 
 

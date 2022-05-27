@@ -122,7 +122,7 @@
    <widget class="QComboBox" name="scaler">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>620</x>
       <y>30</y>
       <width>171</width>
       <height>31</height>
@@ -152,7 +152,7 @@
    <widget class="QPushButton" name="scale_btn">
     <property name="geometry">
      <rect>
-      <x>850</x>
+      <x>800</x>
       <y>30</y>
       <width>111</width>
       <height>31</height>
@@ -172,8 +172,8 @@
      <rect>
       <x>410</x>
       <y>80</y>
-      <width>561</width>
-      <height>251</height>
+      <width>511</width>
+      <height>211</height>
      </rect>
     </property>
    </widget>
@@ -277,50 +277,126 @@
      </rect>
     </property>
    </widget>
-   <widget class="QComboBox" name="cat_column_2">
+   <widget class="QComboBox" name="dropcolumn">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>350</y>
-      <width>171</width>
+      <x>520</x>
+      <y>320</y>
+      <width>241</width>
       <height>31</height>
      </rect>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
       <x>410</x>
-      <y>350</y>
-      <width>161</width>
+      <y>320</y>
+      <width>101</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>Select Target Columnl</string>
+     <string>Drop Column</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="convert_btn_2">
+   <widget class="QPushButton" name="drop">
     <property name="geometry">
      <rect>
       <x>770</x>
-      <y>350</y>
-      <width>101</width>
+      <y>320</y>
+      <width>81</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
-     <string>convert</string>
+     <string>Drop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="filmean">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>360</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>fil mean</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="empty_column">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>360</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>360</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>empty column</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fillna">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>360</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>fil 0 </string>
     </property>
    </widget>
   </widget>
