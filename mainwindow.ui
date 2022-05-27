@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1065</width>
-    <height>795</height>
+    <width>984</width>
+    <height>695</height>
    </rect>
   </property>
   <property name="font">
@@ -68,7 +68,7 @@
    <widget class="QLabel" name="label_29">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>320</x>
       <y>150</y>
       <width>91</width>
       <height>31</height>
@@ -86,8 +86,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>10</y>
+      <x>400</x>
+      <y>0</y>
       <width>211</width>
       <height>31</height>
      </rect>
@@ -104,8 +104,8 @@
    <widget class="QLabel" name="shape">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>50</y>
+      <x>420</x>
+      <y>40</y>
       <width>231</width>
       <height>31</height>
      </rect>
@@ -122,8 +122,8 @@
    <widget class="QComboBox" name="scaler">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>40</y>
+      <x>670</x>
+      <y>30</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -152,8 +152,8 @@
    <widget class="QPushButton" name="scale_btn">
     <property name="geometry">
      <rect>
-      <x>910</x>
-      <y>40</y>
+      <x>850</x>
+      <y>30</y>
       <width>111</width>
       <height>31</height>
      </rect>
@@ -170,10 +170,10 @@
    <widget class="QTableView" name="tableView">
     <property name="geometry">
      <rect>
-      <x>470</x>
-      <y>90</y>
+      <x>410</x>
+      <y>80</y>
       <width>561</width>
-      <height>201</height>
+      <height>251</height>
      </rect>
     </property>
    </widget>
@@ -224,11 +224,103 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Target Columnl</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convert_btn">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>380</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>convert</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cat_column">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cat_column_2">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>350</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>350</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Target Columnl</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convert_btn_2">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>350</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>convert</string>
     </property>
    </widget>
   </widget>
@@ -237,8 +329,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1065</width>
-     <height>31</height>
+     <width>984</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
