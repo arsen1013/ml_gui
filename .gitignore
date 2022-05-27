@@ -1,4 +1,8 @@
 # created by virtualenv automatically
+
+#업데이트 하지 않을 것들 
 /Lib
 /Scripts
+/datasets 
 pyenv.cfg 
+
